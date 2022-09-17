@@ -1,0 +1,247 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    
+    }
+
+    .msg {
+      background-color: #D4EDDA;
+      color: #155724;
+      border: 1px solid #C3E6CB;
+      width: 100%;
+      margin-bottom: 0;
+      text-align: center;
+      padding: 10px;
+    }
+
+      
+  .row {
+    margin: 0;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  a {
+    
+    text-decoration:none;
+  }
+
+  a:hover {
+    color: hotpink;
+  }
+
+  body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  
+  header {
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+  }
+
+
+  #search-container{
+    background-image: url(../img/searchbanner.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+
+  }
+
+  #search-container h1{
+    color:#fff;
+    margin-bottom: 30px;
+    font-weight: 500;
+
+  }
+
+  #search-container form{
+    width: 50%;
+    margin: 0 auto;
+
+    
+  }
+
+  #navbar{
+    justify-content: space-between;
+    
+  }
+
+  #navbar img{
+    width: 60px;
+    margin-left: 10px;
+  }
+
+
+
+  footer {
+    background-color: #353E48;
+    color: #FFF;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+
+  /* Event create page */
+#manga-create-container {
+  padding-top: 30px;
+  
+}
+
+#manga-create-container label {
+  font-weight: bold;
+}
+
+
+
+#manga-create-container form{
+  width: 70%;
+  margin: 0 auto;
+  
+
+}
+
+#manga-create-container h1{
+  display: flex;
+  justify-content: center;
+}
+
+#manga-create-container p{
+  padding-top: 25px;
+}
+
+#MangaColumn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#image-container,
+#info-container {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+#image-container img {
+  border-radius: 10px;
+  width: 80%;
+}
+
+#info-container h1 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+#info-container p {
+  margin: 0;
+  font-size: 14px;
+  display: flex;
+}
+
+#info-container h3,
+#description-container h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#info-container ion-icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+#info-container #event-submit {
+  margin: 20px 0;
+}
+
+#tags-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#tags-list li {
+  display: flex;
+}
+
+.tag-container{
+  display: flex;
+  padding-top: 10px;
+  
+}
+
+.tag-container-2{
+  display: flex;
+  padding-bottom: 10px;
+  
+}
+
+.status-container{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.ppl-reading{
+  font-weight: bold;
+
+}
+
+.sem-acesso{
+
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  
+}
+
+.dashboard-title-container {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.dashboard-events-container th {
+  width: 25%;
+}
+
+
+.dashboard-events-container form {
+  display: inline-block;
+}
+
+.img-preview {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.add-manga { 
+
+  margin-bottom:30px;
+
+}
+
+.already-joined-msg {
+  margin: 15px 0;
+  color: red;
+  background-color: #CCE5FF;
+  border: 1px solid #B8DAFF;
+  padding: 10px;
+  width: 275px;
+}
+
+
+  }
+
+  
